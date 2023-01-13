@@ -3,5 +3,7 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
+
   get "/hello_path", controller: "example_pages", action: "hello_method"
+  get "/congrats_path", controller: "example_pages", action: "congrats_method"
 end
